@@ -4,6 +4,8 @@ class SingleRoom extends Component {
     return (
         <div>
           SingleRoom
+          b
+          <ul></ul>
         </div>
     );
   }

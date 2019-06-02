@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 const Rooms=()=>{
     return (
     	<Hero hero="roomsHero">
-    		 <Banner title="Ourrooms" subtile="">
+    		 <Banner title="Our Rooms" subtile="">
 		        <Link to="/" className="btn-primary">
 		        	Return Home
 		        </Link>

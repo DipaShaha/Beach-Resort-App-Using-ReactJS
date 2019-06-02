@@ -2,6 +2,8 @@ import React from 'react';
 import {PropTypes} from 'prop-types';
 import {Link} from 'react-router-dom';
 import defaultImage from '../images/room-1.jpeg';
+
+
 export default function Room({room}){
 	const{name,slug,images,price}=room;
 	return(

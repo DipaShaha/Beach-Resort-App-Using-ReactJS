@@ -67,6 +67,33 @@ export default function RoomsFilter({rooms}){
 					 onChange={handleChange}
 					/>
 				</div>
+				<div className="form-group">
+					<label htmlFor="size">Room Size</label>
+					<div className="size-inputs">
+						<input type="number" name="minSize" id="size" className="form-control"
+						value={minSize} onChange={handleChange}
+						/>
+						<input type="number" name="maxSize" id="size" className="form-control"
+						value={maxSize} onChange={handleChange}
+						/>
+					</div>
+				</div>
+				<div className="form-control">
+					<div className="single-extra">
+						<input type="checkbox" name="breakfast" id="breakfast" 
+						checked={breakfast}
+						onChange={handleChange}
+						/>
+						<label htmlFor="breakfast"> Breakfast </label>
+					</div>
+					<div className="single-extra">
+						<input type="checkbox" name="pets" id="pets" 
+						checked={pets}
+						onChange={handleChange}
+						/>
+						<label htmlFor="pets"> Pets </label>
+					</div>
+				</div>
 			</form>
 
 		</section>

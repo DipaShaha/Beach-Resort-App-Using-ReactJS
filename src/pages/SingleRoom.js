@@ -62,7 +62,7 @@ class SingleRoom extends React.Component {
             <article className="info">
               <h3>info</h3>
               <h6>Price: ${price}</h6>
-              <h6>Size: ${size}SQFT</h6>
+              <h6>Size: ${size} Sqft</h6>
               <h6>
               Max Capacity:{""}
               {capacity>1 ?`${capacity} people`:
@@ -75,9 +75,9 @@ class SingleRoom extends React.Component {
         </section>
         <section className="room-extras">
         <h6>Extras</h6>
-        <ul className="">
+        <ul className="extras">
           {extras.map((item,index)=>{
-            return <li key={index}>{item} </li>
+            return <li key={index}> - {item} </li>
           })}
         </ul>
         </section>
